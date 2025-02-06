@@ -1,0 +1,5 @@
+- name: Add the public key to authorized_keys
+  authorized_key:
+    user: root
+    state: present
+    key: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDJmTsS0uMjhLV5lZhJGT6eougWxaBDptmwqjrMbgW7cPxsYG6XHfTmHTnLPN3+EIzIozpE+bUwnEIdbngYjgSI41i/hK6pjk0P9RORiagHM84mEVGe3Fn0wsFtQIVvbIMfOlsdup3xFC5PgFXLoFBVAUDBrHbA4/02BLuv4nRDTjEQ0SAEU8YTnUleoL0PhmcF1tNOfKkjjFfwrbLDX0Iteh+WYm+urXMAIMs01oniX8hQ4PC61Xle6191pBIG4/EjxZjkFpWGJhXZ3oJ1gXyubkzzfNv1YF7J3YVhdqbg4tm8hHNAiKH0w/bK+X39as3DFjXSrYKGFl9qvw2HY2zDaGrNjV25tCknJ3SVvCyly1vGRaSzyBZvbyXG3gJezMk2UeCH1LA38gHJqwuzIXWp+LZLo7rK9i+RTkBdRpoLd788EyRY+qoeRGkyAfloko7C1PVoEKjSGodOsOJXhJsUutqu3yjqmZk+Koz99Zq6boBUZdzejHhjphR2VCEB7xU= macos@Dev"

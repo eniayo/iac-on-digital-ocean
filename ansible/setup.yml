@@ -1,0 +1,8 @@
+---
+- hosts: webserver
+  become: yes
+  roles:
+    - { role: base, tags: ['base'] }
+    - { role: geerlingguy.nginx, tags: ['nginx'] }
+    - { role: app, tags: ['app'] }
+    - { role: ssh, tags: ['ssh'] }
